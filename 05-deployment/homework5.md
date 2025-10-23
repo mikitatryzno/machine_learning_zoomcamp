@@ -250,4 +250,4 @@ response = requests.post(url, json=client).json()
 print(f"Probability of conversion: {response['probability']:.3f}")
 ```
 
-The probability of conversion is `TBA`.
+The probability of conversion is `0.59`.
