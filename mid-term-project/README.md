@@ -1,4 +1,4 @@
-### Project Description
+## Project Description
 
 This project builds a machine learning model to predict recipe ratings (1-5 stars) based on user reviews and other features. Many users leave detailed comments about recipes without explicitly providing a star rating. Our solution analyzes review text and user interaction metrics to predict what rating a user would give, which can help recipe websites automatically assign ratings to reviews without explicit ratings.
 
@@ -8,7 +8,7 @@ Identify discrepancies between review sentiment and assigned ratings
 Improve recipe recommendation systems
 Understand what factors contribute most to positive or negative recipe reviews
 
-### Dataset
+## Dataset
 
 The project uses the "Recipe Reviews and User Feedback Dataset" from UCI Machine Learning Repository, which contains:
 
@@ -19,15 +19,15 @@ User interaction metrics (thumbs up/down)
 Star ratings (1-5 scale, with 0 indicating no rating)
 
 
-### How to Run the Project
+## How to Run the Project
 
-## Prerequisites
+### Prerequisites
 
 Python 3.8+
 
 pip or pipenv
 
-## Setup Instructions
+### Setup Instructions
 
 1. Clone the repository:
 
@@ -117,11 +117,11 @@ Response:
 }
 ```
 
-### Model Information
+## Model Information
 
 The final model is a gradient boosting classifier that combines text features extracted using TF-IDF vectorization with user interaction metrics. The model was trained on 80% of the dataset and evaluated on the remaining 20%, achieving an accuracy of approximately 85%.
 
-### Project Structure
+## Project Structure
 
 ```
 recipe-rating-prediction/
