@@ -24,6 +24,7 @@ Star ratings (1-5 scale, with 0 indicating no rating)
 ## Prerequisites
 
 Python 3.8+
+
 pip or pipenv
 
 ## Setup Instructions
@@ -91,8 +92,6 @@ podman run -p 5000:5000 recipe-rating-predictor
 
 
 ### API Usage
-
-## Predict Rating
 
 Endpoint: /predict
 
