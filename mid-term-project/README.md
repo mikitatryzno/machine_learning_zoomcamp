@@ -126,7 +126,6 @@ The final model is a gradient boosting classifier that combines text features ex
 ```
 recipe-rating-prediction/
 ├── README.md
-├── notebook.ipynb          # Exploratory data analysis and model development
 ├── train.py                # Script to train the final model
 ├── predict.py              # Flask API for serving predictions
 ├── download_data.py        # Script to download the dataset
