@@ -360,4 +360,4 @@ result = json.loads(response.text)
 print(result)
 ```
 
-Model output (docker) is `TBA`.
+Model output (docker) is `0.1`.
